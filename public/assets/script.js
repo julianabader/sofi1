@@ -85,7 +85,7 @@ function getInput(name, type) {
 
 
 function getResource(type) {
-  const pathPrefix = '/';
+  const pathPrefix = '';
   const resource = resources.find(resource => resource.type === type);
 
   let inputs = [];
